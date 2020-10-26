@@ -40,3 +40,24 @@ form button:hover {
     background: #d18136;
     margin: 10px;
 }
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo li {
+    flex: 1;
+}
